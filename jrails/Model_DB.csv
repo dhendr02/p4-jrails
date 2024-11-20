@@ -1,0 +1,2 @@
+id,Model_Type,title,author,num_copies
+1,books.Book,title=Test Book,author=Test Author,num_copies=1
