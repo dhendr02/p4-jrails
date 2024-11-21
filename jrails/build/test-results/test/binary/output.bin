@@ -1,40 +1,36 @@
-Saving b1...
-b1 saved with ID: 1
-Saving b2...
-b2 saved with ID: 2
-The ID of book 1 is: 1
-	%[DEBUG] Running testSaveBehavior...
-	[DEBUG] Database reset.
-	 [DEBUG] Book1 saved with ID: 1
-	"[DEBUG] Book1 updated with ID: 1
-	[DEBUG] Database reset again.
-	T[DEBUG] Caught expected exception: Model with ID 1 does not exist in the database.
-	([DEBUG] allModels before iteration: {}
-	"[DEBUG] allModels after read: {}
-	[DEBUG] Resulting models: []
-	2[DEBUG] testSaveBehavior completed successfully.
-
-#[DEBUG] Running testFindMethod...
-
-[DEBUG] Database reset.
-
-[DEBUG] Saved book with ID: 1
-
-V[DEBUG] Retrieved book: Title = Find Test Book, Author = Test Author, Num Copies = 2
-
-0[DEBUG] TestFindMethod completed successfully.
-ë[DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Book One, author=Author One, num_copies=10}, 2={Model_Type=books.Book, title=Book Two, author=Author Two, num_copies=20}, 3={Model_Type=books.Book, title=Book Three, author=Author Three, num_copies=30}}
-ã[DEBUG] allModels after read: {1={Model_Type=books.Book, title=Book One, author=Author One, num_copies=10}, 2={Model_Type=books.Book, title=Book Two, author=Author Two, num_copies=20}, 3={Model_Type=books.Book, title=Book Three, author=Author Three, num_copies=30}}
-Y[DEBUG] Resulting models: [books.Book@5b94b04d, books.Book@8c3b9d, books.Book@4c39bec8]
-\[DEBUG] All books retrieved: [books.Book@5b94b04d, books.Book@8c3b9d, books.Book@4c39bec8]
-Ú[DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=42}, 2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
-Ï[DEBUG] allModels after read: {1={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=42}, 2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
-[[DEBUG] Resulting models: [books.Book@7494f96a, books.Book@561b6512, books.Book@2e377400]
-˙[DEBUG] allModels before iteration: {2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
-Ù[DEBUG] allModels after read: {2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
-F[DEBUG] Resulting models: [books.Book@1757cd72, books.Book@445b295b]
-=[DEBUG] File content: id,Model_Type,title,author,num_copies
-T[DEBUG] File content: 1,books.Book,title=Test Book,author=Test Author,num_copies=1
-t[DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Test Book, author=Test Author, num_copies=1}}
-n[DEBUG] allModels after read: {1={Model_Type=books.Book, title=Test Book, author=Test Author, num_copies=1}}
-1[DEBUG] Resulting models: [books.Book@49e5f737]
+<p>Simple Test Case</p>
+Saving b1...
+b1 saved with ID: 1
+Saving b2...
+b2 saved with ID: 2
+The ID of book 1 is: 1
+$[DEBUG] Running testSaveBehavior...
+[DEBUG] Database reset.
+[DEBUG] Book1 saved with ID: 1
+![DEBUG] Book1 updated with ID: 1
+[DEBUG] Database reset again.
+S[DEBUG] Caught expected exception: Model with ID 1 does not exist in the database.
+'[DEBUG] allModels before iteration: {}
+![DEBUG] allModels after read: {}
+[DEBUG] Resulting models: []
+1[DEBUG] testSaveBehavior completed successfully.
+	"[DEBUG] Running testFindMethod...
+	[DEBUG] Database reset.
+	[DEBUG] Saved book with ID: 1
+	U[DEBUG] Retrieved book: Title = Find Test Book, Author = Test Author, Num Copies = 2
+	/[DEBUG] TestFindMethod completed successfully.
+ê[DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Book One, author=Author One, num_copies=10}, 2={Model_Type=books.Book, title=Book Two, author=Author Two, num_copies=20}, 3={Model_Type=books.Book, title=Book Three, author=Author Three, num_copies=30}}
+ä[DEBUG] allModels after read: {1={Model_Type=books.Book, title=Book One, author=Author One, num_copies=10}, 2={Model_Type=books.Book, title=Book Two, author=Author Two, num_copies=20}, 3={Model_Type=books.Book, title=Book Three, author=Author Three, num_copies=30}}
+Y[DEBUG] Resulting models: [books.Book@3b69e7d1, books.Book@815b41f, books.Book@5542c4ed]
+\[DEBUG] All books retrieved: [books.Book@3b69e7d1, books.Book@815b41f, books.Book@5542c4ed]
+Ò[DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=42}, 2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
+Î[DEBUG] allModels after read: {1={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=42}, 2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
+Z[DEBUG] Resulting models: [books.Book@2f4948e4, books.Book@1f2586d6, books.Book@10683d9d]
+˘[DEBUG] allModels before iteration: {2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
+Û[DEBUG] allModels after read: {2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
+E[DEBUG] Resulting models: [books.Book@3fc2959f, books.Book@5aa9e4eb]
+<[DEBUG] File content: id,Model_Type,title,author,num_copies
+S[DEBUG] File content: 1,books.Book,title=Test Book,author=Test Author,num_copies=1
+s[DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Test Book, author=Test Author, num_copies=1}}
+m[DEBUG] allModels after read: {1={Model_Type=books.Book, title=Test Book, author=Test Author, num_copies=1}}
+0[DEBUG] Resulting models: [books.Book@6989da5e]

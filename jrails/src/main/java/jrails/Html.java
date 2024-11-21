@@ -1,76 +1,122 @@
 package jrails;
 
 public class Html {
+
+    private final StringBuilder content = new StringBuilder();
+
     public String toString() {
-        throw new UnsupportedOperationException();
+        return content.toString();
     }
 
     public Html seq(Html h) {
-        throw new UnsupportedOperationException();
+        content.append(h.toString());
+        return this;
     }
 
     public Html br() {
-        throw new UnsupportedOperationException();
+        content.append("<br/>");
+        return this;
     }
 
     public Html t(Object o) {
-        // Use o.toString() to get the text for this
-        throw new UnsupportedOperationException();
+        Html newHtml = new Html();
+        newHtml.content.append(o.toString());
+        return newHtml;
     }
 
     public Html p(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<p>");
+        content.append(child.toString());
+        content.append("</p>");
+        return this;
     }
 
     public Html div(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<div>");
+        content.append(child.toString());
+        content.append("</div>");
+        return this;
     }
 
     public Html strong(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<strong>");
+        content.append(child.toString());
+        content.append("</strong>");
+        return this;
     }
 
     public Html h1(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<h1>");
+        content.append(child.toString());
+        content.append("</h1>");
+        return this;
     }
 
     public Html tr(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<tr>");
+        content.append(child.toString());
+        content.append("</tr>");
+        return this;
     }
 
     public Html th(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<th>");
+        content.append(child.toString());
+        content.append("</th>");
+        return this;
     }
 
     public Html td(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<td>");
+        content.append(child.toString());
+        content.append("</td>");
+        return this;
     }
 
     public Html table(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<table>");
+        content.append(child.toString());
+        content.append("</table>");
+        return this;
     }
 
     public Html thead(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<thead>");
+        content.append(child.toString());
+        content.append("</thead>");
+        return this;
     }
 
     public Html tbody(Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<tbody>");
+        content.append(child.toString());
+        content.append("</tbody>");
+        return this;
     }
 
     public Html textarea(String name, Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<textarea name=\"").append(name).append("\">");
+        content.append(child.toString());
+        content.append("</textarea>");
+        return this;
     }
 
     public Html link_to(String text, String url) {
-        throw new UnsupportedOperationException();
+        content.append("<a href=\"").append(url).append("\">");
+        content.append(text);
+        content.append("</a>");
+        return this;
     }
 
     public Html form(String action, Html child) {
-        throw new UnsupportedOperationException();
+        content.append("<form action=\"").append(action).append("\" accept-charset=\"UTF-8\" method=\"post\">");
+        content.append(child.toString());
+        content.append("</form>");
+        return this;
     }
 
     public Html submit(String value) {
-        throw new UnsupportedOperationException();
+        content.append("<input type=\"submit\" value=\"").append(value).append("\"/>");
+        return this;
     }
 }

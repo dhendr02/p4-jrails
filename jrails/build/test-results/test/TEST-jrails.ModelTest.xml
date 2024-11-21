@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jrails.ModelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-20T16:02:44" hostname="DERIKS-PC-2024" time="0.031">
+<testsuite name="jrails.ModelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-11-20T19:22:47" hostname="Deriks-MacBook-Pro.local" time="0.022">
   <properties/>
-  <testcase name="modelTest" classname="jrails.ModelTest" time="0.008"/>
-  <testcase name="testSaveBehavior" classname="jrails.ModelTest" time="0.005"/>
-  <testcase name="testFindMethod" classname="jrails.ModelTest" time="0.007"/>
-  <testcase name="id" classname="jrails.ModelTest" time="0.001"/>
-  <testcase name="testAllMethod" classname="jrails.ModelTest" time="0.002"/>
-  <testcase name="test2" classname="jrails.ModelTest" time="0.003"/>
-  <testcase name="test_destroy" classname="jrails.ModelTest" time="0.001"/>
+  <testcase name="modelTest" classname="jrails.ModelTest" time="0.009"/>
+  <testcase name="testSaveBehavior" classname="jrails.ModelTest" time="0.004"/>
+  <testcase name="testFindMethod" classname="jrails.ModelTest" time="0.004"/>
+  <testcase name="id" classname="jrails.ModelTest" time="0.0"/>
+  <testcase name="testAllMethod" classname="jrails.ModelTest" time="0.0"/>
+  <testcase name="test2" classname="jrails.ModelTest" time="0.001"/>
+  <testcase name="test_destroy" classname="jrails.ModelTest" time="0.0"/>
   <testcase name="testFileWriteAndRead" classname="jrails.ModelTest" time="0.001"/>
   <system-out><![CDATA[Saving b1...
 b1 saved with ID: 1
@@ -31,19 +31,19 @@ The ID of book 1 is: 1
 [DEBUG] TestFindMethod completed successfully.
 [DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Book One, author=Author One, num_copies=10}, 2={Model_Type=books.Book, title=Book Two, author=Author Two, num_copies=20}, 3={Model_Type=books.Book, title=Book Three, author=Author Three, num_copies=30}}
 [DEBUG] allModels after read: {1={Model_Type=books.Book, title=Book One, author=Author One, num_copies=10}, 2={Model_Type=books.Book, title=Book Two, author=Author Two, num_copies=20}, 3={Model_Type=books.Book, title=Book Three, author=Author Three, num_copies=30}}
-[DEBUG] Resulting models: [books.Book@5b94b04d, books.Book@8c3b9d, books.Book@4c39bec8]
-[DEBUG] All books retrieved: [books.Book@5b94b04d, books.Book@8c3b9d, books.Book@4c39bec8]
+[DEBUG] Resulting models: [books.Book@3b69e7d1, books.Book@815b41f, books.Book@5542c4ed]
+[DEBUG] All books retrieved: [books.Book@3b69e7d1, books.Book@815b41f, books.Book@5542c4ed]
 [DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=42}, 2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
 [DEBUG] allModels after read: {1={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=42}, 2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
-[DEBUG] Resulting models: [books.Book@7494f96a, books.Book@561b6512, books.Book@2e377400]
+[DEBUG] Resulting models: [books.Book@2f4948e4, books.Book@1f2586d6, books.Book@10683d9d]
 [DEBUG] allModels before iteration: {2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
 [DEBUG] allModels after read: {2={Model_Type=books.Book, title=Programming Languages: Build, Prove, and Compare, author=Norman Ramsey, num_copies=999}, 3={Model_Type=books.Book, title=Third Book Example, author=Another Author, num_copies=50}}
-[DEBUG] Resulting models: [books.Book@1757cd72, books.Book@445b295b]
+[DEBUG] Resulting models: [books.Book@3fc2959f, books.Book@5aa9e4eb]
 [DEBUG] File content: id,Model_Type,title,author,num_copies
 [DEBUG] File content: 1,books.Book,title=Test Book,author=Test Author,num_copies=1
 [DEBUG] allModels before iteration: {1={Model_Type=books.Book, title=Test Book, author=Test Author, num_copies=1}}
 [DEBUG] allModels after read: {1={Model_Type=books.Book, title=Test Book, author=Test Author, num_copies=1}}
-[DEBUG] Resulting models: [books.Book@49e5f737]
+[DEBUG] Resulting models: [books.Book@6989da5e]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

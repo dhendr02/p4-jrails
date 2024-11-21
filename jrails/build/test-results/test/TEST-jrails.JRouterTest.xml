@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jrails.JRouterTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-20T16:02:44" hostname="DERIKS-PC-2024" time="0.001">
+<testsuite name="jrails.JRouterTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-20T19:22:47" hostname="Deriks-MacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="addRoute" classname="jrails.JRouterTest" time="0.001">
+  <testcase name="addRoute" classname="jrails.JRouterTest" time="0.002">
     <failure message="java.lang.UnsupportedOperationException" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
 	at jrails.JRouter.getRoute(JRouter.java:14)
 	at jrails.JRouterTest.addRoute(JRouterTest.java:21)

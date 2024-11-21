@@ -19,4 +19,12 @@ public class HtmlTest {
     public void empty() {
         assertThat(View.empty().toString(), isEmptyString());
     }
+
+    @Test
+    public void simpleTest() {
+        Html html = new Html();
+        html = html.p(html.t("Simple Test Case"));
+        System.out.println(html.toString());
+        assert(html.toString().equals("<p>Simple Test Case</p>"));
+    }
 }
